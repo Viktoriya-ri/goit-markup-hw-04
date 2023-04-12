@@ -141,8 +141,8 @@ img {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--color-navi-blue-modal);
-  background-image: url(../images/background/people-office\ 1.svg) ;
+  background-color: var(--color-grey);
+  background-image:  url(../images/background/people-office\ 1.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
