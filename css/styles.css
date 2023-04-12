@@ -323,6 +323,10 @@ img {
   border-color: var(--color-ocean);
   color: var(--color-ocean);
 }
+.items-list {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
 
 /*Footer*/
 
@@ -352,11 +356,31 @@ img {
 
   display: inline-block;
 }
+.footer-container {
+  display: flex; 
+  align-items: baseline; 
+  margin-right: 120px;
+}
 .section-footer {
   padding: 0 120px;
   display: inline-block;
 }
-.icons {
+.icons-link {
+  width: 100%; 
+  height: 100%;
+  background-color: var(--color-iris);
+  border-radius: 50%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+.icons-link:hover,
+.icons-link:focus {
+  background-color: var(--color-green);
+}
+.icons-list {
+  width: 40px; 
+  height: 40px; 
 }
 
 /*main portfolio*/
