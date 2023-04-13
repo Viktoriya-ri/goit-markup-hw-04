@@ -145,7 +145,6 @@ img {
 }
 .section-container {
   width: 1440px;
-  height: 600px;
 }
 .backgr-section {
   max-width: 1440px;
@@ -264,14 +263,6 @@ img {
   background-color: var(--color-cloud);
 }
 
-.text-bottom {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--color-cloud);
-}
-
 .button-link-p {
   font-weight: 500;
   font-size: 16px;
@@ -317,23 +308,29 @@ img {
 .client-card {
   width: 100%;
   height: 100%;
-  border: 1px solid var(--color-light-slate);
-  border-radius: 4px;
+  background-color: var(--color-iris);
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-fair);
+
 }
 .client-card:hover,
 .client-card:focus {
   border-color: var(--color-ocean);
   color: var(--color-ocean);
 }
+.items-list {
+  width: 40px;
+  height: 40px; 
+}
 
 
 /*Footer*/
 
 .bottom {
+  width: 1440px;
+  margin: 0 auto;
   background-color: var(--color-naviblue);
   padding: 100px 0;
 }
@@ -362,6 +359,13 @@ img {
   display: flex;
   align-items: baseline;
   gap: 120px;
+}
+.text-bottom {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--color-cloud);
 }
 .parag-social {
   font-weight: 500;
