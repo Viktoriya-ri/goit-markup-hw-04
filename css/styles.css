@@ -302,8 +302,7 @@ img {
   gap: 24px;
 }
 .client-list {
-  width: calc((100% - 120px) / 6);
-  height: 88px;
+ 
 }
 .client-card {
   width: 100%;
@@ -321,8 +320,8 @@ img {
   color: var(--color-ocean);
 }
 .items-list {
-  width: 40px;
-  height: 40px; 
+  width: calc((100% - 120px) / 6);
+  height: 88px;
 }
 
 
@@ -378,6 +377,10 @@ img {
 .list-item-social {
   display: flex;
   gap: 16px;
+}
+.icons-list {
+  width: 40px;
+  height: 40px;
 }
 
 /*main portfolio*/
