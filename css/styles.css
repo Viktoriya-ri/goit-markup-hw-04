@@ -57,7 +57,7 @@ img {
   cursor: pointer;
 }
 .container {
-  width: 1158px;
+  width: 1440px;
   margin: 0 auto;
   padding: 0 15px;
   /*
@@ -136,10 +136,16 @@ img {
 }
 
 /*Main*/
+
 .section {
+  padding: 120px 0;
+}
+.title-section {
   padding: 188px 0;
-  background-color: var(--color-navi-blue-modal);
-  color: var(-color-white);
+}
+.section-container {
+  width: 1440px;
+  height: 600px;
 }
 .backgr-section {
   max-width: 1440px;
@@ -150,7 +156,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/background/img-name.png);
+    url(../images/background/people-office-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -323,10 +329,7 @@ img {
   border-color: var(--color-ocean);
   color: var(--color-ocean);
 }
-.items-list {
-  width: calc((100% - 120px) / 6);
-  height: 88px;
-}
+
 
 /*Footer*/
 
@@ -353,34 +356,24 @@ img {
   color: var(--color-iris);
   letter-spacing: 0.03em;
   margin-bottom: 16px;
-
   display: inline-block;
 }
 .footer-container {
-  display: flex; 
-  align-items: baseline; 
+  display: flex;
+  align-items: baseline;
   gap: 120px;
 }
-.section-footer {
-  padding: 0 120px;
-  display: inline-block;
+.parag-social {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  margin-bottom: 16px;
 }
-.icons-link {
-  width: 100%; 
-  height: 100%;
-  background-color: var(--color-iris);
-  border-radius: 50%;
-  display: flex; 
-  align-items: center; 
-  justify-content: center;
-}
-.icons-link:hover,
-.icons-link:focus {
-  background-color: var(--color-green);
-}
-.icons-list {
-  width: 40px; 
-  height: 40px; 
+.list-item-social {
+  display: flex;
+  gap: 16px;
 }
 
 /*main portfolio*/
@@ -444,32 +437,19 @@ img {
   border: 1px solid var(--color-cornflower);
   border-top: none;
 }
-.parag-social {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-white);
-  margin-bottom: 16px;
-}
-.list-item-social {
-  display: flex;
-  gap: 16px; 
-}
+
 .client-list {
-  width: 40px; 
-  height: 40px; 
+  width: 40px;
+  height: 40px;
   background-color: var(--color-iris);
   border-radius: 50%;
-  display: flex; 
+  display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 .client-list:hover,
 .client-list:focus {
   background-color: var(--color-green);
 }
-
-
 
 /*Icons*/
