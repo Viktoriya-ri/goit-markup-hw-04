@@ -342,8 +342,9 @@ img {
 }
 
 /* Section fifth Clients*/
-.section {
+.client-section {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .clients {
   display: flex;
