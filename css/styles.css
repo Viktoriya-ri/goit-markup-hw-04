@@ -286,7 +286,7 @@ img {
 }
 .socials-link:hover,
 .socials-link:focus {
-  background-color: var(--color-ocean);
+  background-color: var(--color-green);
 }
 
 .socials-icon {
@@ -398,6 +398,7 @@ img {
 .footer-container {
   display: flex;
   gap:120px;
+
   align-items: baseline;
  
 }
@@ -453,6 +454,7 @@ img {
   gap: 16px;
 }
 .icons-list {
+
   width: 40px;
   height: 40px;
 }
