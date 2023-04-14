@@ -17,7 +17,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1,71;
   letter-spacing: 0.03em;
   color: var(--color-slate);
   background-color: var(--color-white);
@@ -207,6 +207,7 @@ img {
 }
 
 .facts-container {
+
   padding: 120px 0;
 }
 .list-item {
@@ -262,6 +263,7 @@ img {
   color: var(--color-slate);
 }
 /*Socials icoms*/
+
 .socials {
   display: flex;
   justify-content: center;
