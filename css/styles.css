@@ -377,26 +377,12 @@ img {
 
 
 /*Footer*/
-
-.footer {
-  margin: 0 auto;
-  padding: 100px 0;
-  background-color: var(--color-naviblue);
-}
-.footer-container {
-  display: flex;
-  align-items: baseline;
-  margin-right: 120px;
-}
 .name-footer {
   color: var(--color-cloud);
 }
-.link-footer {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-white);
+.footer {
+  background-color: var(--color-naviblue);
+  padding: 100px 0;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -410,18 +396,24 @@ img {
   display: inline-block;
 }
 .text-bottom {
+  max-width: 264px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-cloud);
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
 }
 .parag-social {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-white);
+  color:  var(--color-white);
   margin-bottom: 16px;
 }
 .list-item-social {
@@ -432,10 +424,9 @@ img {
   width: 40px;
   height: 40px;
 }
-.socials-link-footer:hover,
-.socials-link-footer:focus {
+.socials-link:hover,
+.socials-link:focus {
   background-color: var(--color-green);
-  
 }
 
 /*main portfolio*/
