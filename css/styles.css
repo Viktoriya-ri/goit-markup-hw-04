@@ -11,7 +11,7 @@
   --color-navi-blue-modal: #2e2f42;
   --color-grey: #2e2f42;
   --color-white: #ffffff;
-  --color-fair: #afb1b8;
+
 }
 
 body {
@@ -368,7 +368,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-fair);
+  color: var(--color-light-slate);
 }
 
 .client-card:hover,
