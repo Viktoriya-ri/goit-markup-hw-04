@@ -373,6 +373,7 @@ img {
 
 .client-card:hover,
 .client-card:focus {
+  fill: var(--color-ocean);
   color: var(--color-ocean);
   border-color: var(--color-ocean);
 }
