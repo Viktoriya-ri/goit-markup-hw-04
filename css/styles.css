@@ -38,8 +38,8 @@ img {
 }
 
 .link {
-  text-decoration: none;
   color: currentColor;
+  text-decoration: none;
 }
 .list {
   list-style: none;
@@ -137,7 +137,7 @@ img {
 /*Main  Section first*/
 
 .title-section {
-  padding: 120px 0;
+  padding: 188px 0;
 }
 .backgr-section {
   max-width: 1440px;
@@ -208,13 +208,8 @@ img {
   display: flex;
   gap: 24px;
 }
-.item {
+.advantages {
   width: calc((100% - 72px) / 4);
-  background-color: var(--color-white);
-  border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  margin-bottom: 8px;
 }
 .fact-title {
   font-style: normal;
@@ -226,7 +221,7 @@ img {
   
 }
 .fact-descr {
-  
+  margin-bottom: 8px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -341,6 +336,17 @@ img {
   height: 88px;
 }
 
+/* Section four */
+
+.item {
+  width: calc((100% - 72px) / 4);
+  background-color: var(--color-white);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  margin-bottom: 8px;
+}
+
 /* Section fifth Clients*/
 .client-section {
   padding-top: 120px;
@@ -364,6 +370,7 @@ img {
   justify-content: center;
   color: var(--color-fair);
 }
+
 .client-card:hover,
 .client-card:focus {
   color: var(--color-ocean);
